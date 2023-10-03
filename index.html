@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Split</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <header id="logo"><span>BUDGET</span>HERE</header>
+    </nav>
+    <main>
+      <div class="input">
+        <div class="income-input">
+          <label for="income">Monthly income</label>
+          <input
+            type="number"
+            id="income"
+            placeholder="₹"
+            onkeyup="printSplit()"
+          />
+        </div>
+
+        <div class="budget-split">
+          <p>Budget splits</p>
+          <br />
+          <label
+            ><input
+              type="radio"
+              name="splitGroup"
+              value="1"
+              id="fifty"
+              checked
+              onclick="printSplit()"
+            />50/30/20</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="splitGroup"
+              value="2"
+              id="sixty"
+              onclick="printSplit()"
+            />60/20/20</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="splitGroup"
+              value="3"
+              id="seventy"
+              onclick="printSplit()"
+            />70/20/10</label
+          >
+        </div>
+      </div>
+      <div class="result">
+        <div>
+          <p class="split-component">Needs</p>
+          <p id="needs" class="budget-result">₹ 0</p>
+        </div>
+        <div>
+          <p class="split-component">Wants</p>
+          <p id="wants" class="budget-result">₹ 0</p>
+        </div>
+        <div>
+          <p class="split-component">Savings/Investment</p>
+          <p id="savings" class="budget-result">₹ 0</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
