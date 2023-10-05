@@ -2,6 +2,7 @@
 
 <p>Buget splitter for monthly income.</p>
 <p><b>Used</b>:  HTML, CSS & Javascript</p>
+<p>It is a PWA</p>
 
 <em>Screenshots: </em> <br>
 ![image](https://github.com/darshan2202/budget-here/assets/113721512/a419b71b-1649-46db-91f9-ca33c10f5a4f)
