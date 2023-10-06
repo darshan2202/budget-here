@@ -1,0 +1,21 @@
+{
+        "name": "BudgetHere",
+        "short_name": "BudgetHere",
+        "display": "standalone",
+        "start_url": "https://budgethere.netlify.app/",
+        "background_color": "#fff",
+        "theme_color": "#000",
+        "description": "Budget spliter for monthly income.",
+        "icons": [
+          {
+            "src": "homescreen.png",
+            "sizes": "48x48",
+            "type": "image/png"
+          },
+          {
+            "src": "homescreen144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+          }
+        ]
+}

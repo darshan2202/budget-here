@@ -131,7 +131,7 @@ input[type="number"] {
         .budget-split label, p{
                 margin-right: .5rem;
                 letter-spacing: 1px;
-                margin-top: 1rem;
+                margin-top: .5rem;
         }
         .budget-split input{
                 margin-right: 5px;
